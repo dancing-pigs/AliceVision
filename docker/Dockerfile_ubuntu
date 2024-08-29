@@ -2,7 +2,7 @@ ARG AV_DEPS_VERSION=2024.04.10
 ARG AV_VERSION
 ARG CUDA_VERSION=11.3.1
 ARG UBUNTU_VERSION=20.04
-FROM alicevision/alicevision-dep1s:${AV_DEPS_VERSION}-ubuntu${UBUNTU_VERSION}-cuda${CUDA_VERSION}
+FROM alicevision/alicevision-deps:${AV_DEPS_VERSION}-ubuntu${UBUNTU_VERSION}-cuda${CUDA_VERSION}
 LABEL maintainer="AliceVision Team alicevision-team@googlegroups.com"
 ARG TARGET_ARCHITECTURE=core
 
